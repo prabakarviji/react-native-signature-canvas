@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { View, StyleSheet, WebView } from 'react-native';
+import { View, StyleSheet  } from 'react-native';
+import {WebView} from "react-native-webview"
 
 import htmlContent from './h5/html';
 import injectedSignaturePad from './h5/js/signature_pad';
